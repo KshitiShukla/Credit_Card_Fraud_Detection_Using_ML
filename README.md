@@ -64,7 +64,7 @@ Evaluate the selected models on the untouched test dataset.
 
 Key Metrics: Given the nature of fraud detection, performance is evaluated using metrics like Precision, Recall, F1-Score, and the Confusion Matrix, as simple Accuracy can be misleading.
 
-## Technology Stack & Libraries
+## Technical Dependencies & Environment
 
 Python: The core programming language.
 
@@ -81,3 +81,15 @@ Model implementations (LogisticRegression, RandomForestClassifier, etc.).
 Evaluation metrics (confusion_matrix, classification_report).
 
 Imbalance Handling Libraries (e.g., imblearn): Specifically for techniques like SMOTE.
+
+## Conclusion & Future Work
+
+This project successfully demonstrates a robust method for detecting credit card fraud under extreme class imbalance. While the current models provide strong results, there is always room for improvement.
+
+Further Exploration: Experiment with more advanced techniques like Isolation Forest or one-class SVMs.
+
+Hyperparameter Tuning: Conduct extensive GridSearchCV or RandomizedSearchCV to optimize model performance further.
+
+Feature Engineering: Explore time-series based features or rolling window aggregates to capture behavioral changes.
+
+Feel free to fork this repository, submit pull requests, or open an issue if you have suggestions or feedback!
